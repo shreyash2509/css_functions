@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>WT</title>
+    <style>
+      .text_internal {
+        margin-top: 5px;
+        background-color: yellow;
+        color: red;
+      }
+    </style>
+  </head>
+  <body style="background-color: black">
+    <div class="container_img" id="1">
+      <img
+        src="./src/2.jpg"
+        alt="Snow"
+        class="c_img"
+        style="width: 100%; filter: brightness(0.4)"
+      />
+      <ul class="nav f top-left" style="font-size: 25px; width: 99%">
+        <div>
+          <li class="nav-item">
+            <a class="nav-link active link-light" aria-current="page" href="#1"
+              >WT PRESENTATION</a
+            >
+          </li>
+        </div>
+        <div class="f_r">
+          <!-- <li class="nav-item">
+            <a class="nav-link link-light" href="#2">margin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-light" href="#3">padding</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link link-light" href="#4">types of CSS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-light" href="#5">display</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-light" href="#6">position</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-light" href="#7">Gradient</a>
+          </li>
+          
+        </div>
+      </ul>
+
+      <div class="bottom-right">
+        <h1>WEB <br />TECHNOLOGY <br />PRESENTATION</h1>
+      </div>
+    </div>
+
+<!-- 
+    <div class="margin" id="2">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="margin_1">
+              <h2>
+                <b><u>Margin</u></b>
+              </h2>
+              <br />
+              There are 4 types of margin i.e
+              <ul>
+                <a onclick="margin1()"
+                  ><li>margin-top =>(margin-top:100px)</li></a
+                >
+                <a onclick="margin2()"
+                  ><li>margin-right =>(margin-right:100px)</li></a
+                >
+                <a onclick="margin3()"
+                  ><li>margin-bottom =>(margin-bottom:100px)</li></a
+                >
+                <a onclick="margin4()"
+                  ><li>margin-left =>(margin-left:100px)</li></a
+                >
+              </ul>
+            </div>
+          </div>
+          <div class="col test_margin">
+            <div class="text">test text</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="margin" id="3">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="margin_1">
+              <h2>
+                <b><u>Padding</u></b>
+              </h2>
+              <br />
+              There are 4 types of margin i.e
+              <ul>
+                <a onclick="padding1()"
+                  ><li>padding-top =>(padding-top:100px)</li></a
+                >
+                <a onclick="padding2()"
+                  ><li>padding-right =>(padding-right:100px)</li></a
+                >
+                <a onclick="padding3()"
+                  ><li>padding-bottom =>(padding-bottom:100px)</li></a
+                >
+                <a onclick="padding4()"
+                  ><li>padding-left =>(padding-left:100px)</li></a
+                >
+              </ul>
+            </div>
+          </div>
+          <div class="col test_margin">
+            <div class="text-p">test text</div>
+          </div>
+        </div>
+      </div>
+    </div>
+-->
+    <!--type of css-->
+    <div class="margin" id="4">
+      <div class="container">
+        <div class="row">
+          <div class="col test_css" style="background-color: grey">
+            <br />
+            <h2>
+              <b
+                ><u><center>Types of CSS</center></u></b
+              >
+            </h2>
+            <div
+              style="margin-top: 20px; background-color: aquamarine; color: red"
+            >
+              here background colour was set by inline css which has highest
+              priority that's why background colour changed to grey
+            </div>
+            <div class="text_internal">
+              in this line we are using internal css which is in second number
+              in terms of priority
+            </div>
+            <div class="text_external">
+              and this is external css , which is third in priority but i
+              suggested because this helps in keeping our main file neat and
+              clean.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--display-->
+    <div class="margin" id="5">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="margin_1">
+                <h2>
+                  <b><u>Display</u></b>
+                </h2>
+                <br />
+                <ul>
+                  <a onclick="display1()"><li>inline</li></a>
+                  <a onclick="display2()"><li>block</li></a>
+                  <a onclick="display3()"><li>contents</li></a>
+                  <a onclick="display4()"><li>flex</li></a>
+                  <a onclick="display5()"><li>grid</li></a>
+                  <a onclick="display6()"><li>inline-block</li></a>
+                  <a onclick="display7()"><li>inline-flex</li></a>
+                  <a onclick="display8()"><li>inline-grid</li></a>
+                  <a onclick="display9()"><li>table</li></a>
+                </ul>
+              </div>
+            </div>
+            <div class="col test_margin">
+              <p>
+                A demonstration of how to set the display value for an element:
+              </p>
+  
+              <p>
+                Inside this paragraph, we have placed a
+                <div class="text_dis">little blue SPAN</div> element.
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
+     <!--position-->
+     <div class="margin" id="6">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="margin_1">
+                <h2>
+                  <b><u>Position</u></b>
+                </h2>
+                <br />
+                <ul>
+                  <a onclick="position1()"><li>static</li></a>
+                  <a onclick="position2()"><li>relative</li></a>
+                  <a onclick="position3()"><li>fixed</li></a>
+                  <a onclick="position4()"><li>absolute</li></a>
+                  <a onclick="position5()"><li>sticky</li></a>
+                </ul>
+              </div>
+            </div>
+            <div class="col test_pos">
+                <p>An element with position is set below:</p>
+                <div class="pos">This div element has position</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--gradient-->
+    <div class="margin" id="7">
+        <h2>
+            <b><u>Gradient</u></b>
+          </h2>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="margin_1">
+                <br />
+                Linear Gradients(Top-Bottom)
+              </div>
+            </div>
+            
+            <div class="col">
+                <div class="margin_1">
+                  <br />
+                  Radial Gradients(65deg)
+                </div>
+              </div>
+              
+            <div class="col">
+                <div class="margin_1">
+                  <br />Radial Gradients(Rainbow)
+                </div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col test_grad1">
+            </div>
+            <div class="col test_grad2">
+            </div>
+            <div class="col test_grad2">
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./src/main.js"></script>
+  </body>
+</html>
